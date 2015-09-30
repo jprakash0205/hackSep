@@ -1,6 +1,6 @@
 language: python
 env:
- - PORT=5002
+ - PORT=5000
  
  install:
   - pip install -r requirements.txt
