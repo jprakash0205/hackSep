@@ -1,0 +1,4 @@
+applications:
+- name: VBlog
+memory: 2048M
+
