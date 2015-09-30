@@ -1,16 +1,14 @@
 language: python
 
 env:
-  - PORT=5000
- 
- install:
+ - PORT=5002
+install:
   - pip install -r requirements.txt
 
 # command to run tests
 script: python tests.py
 
 deploy:
-   edge: true
    provider: cloudfoundry
    username: jprakash.ora@gmail.com
    password: prakash
